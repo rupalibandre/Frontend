@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://127.0.0.1:8000",
+  baseURL: "https://backend-jpo6.onrender.com",
 });
 
 export const getTodos = () => API.get("/todos/");
